@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="ko">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>파인브이티 - AI 서비스</title>
+  <title>AI 서비스 - FineAeye & FineWeave</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
   <style>
@@ -15,59 +14,133 @@
     }
   </style>
 </head>
-
 <body class="bg-gray-50">
 
-  <!-- Navigation -->
-  <nav class="bg-white shadow fixed w-full z-10">
-    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
-      <div class="text-xl font-bold text-gray-800">파인브이티</div>
-      <div class="space-x-6 text-gray-700 font-medium">
-        <a href="#about" class="hover:text-blue-600">About</a>
-        <a href="#products" class="hover:text-blue-600">FineAeye</a>
-        <a href="#fineweave" class="hover:text-blue-600">FineWeave</a>
-      </div>
+<!-- Navigation -->
+<nav class="bg-white shadow fixed w-full z-10">
+  <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+    <div class="text-xl font-bold text-gray-800">FineVT</div>
+    <div class="space-x-6 text-gray-700 font-medium">
+      <a href="#about" class="hover:text-blue-600">회사</a>
+      <a href="#products" class="hover:text-blue-600">FineAeye</a>
+      <a href="#fineweave" class="hover:text-blue-600">FineWeave</a>
     </div>
-  </nav>
-  <div class="pt-20"></div>
+  </div>
+</nav>
+<div class="pt-20"></div>
 
-  <!-- About Section -->
-  <section id="about" class="py-20 bg-white">
-    <div class="container mx-auto px-4 text-center">
-      <h2 class="text-3xl font-bold mb-6">회사 소개</h2>
-      <p class="text-lg max-w-3xl mx-auto mb-10">파인브이티는 AI 비전 검사장비, 챗봇 솔루션, UAV 드론 및 ICT 서비스를 전문으로 하는 기술 중심 기업입니다. 끊임없는 기술 개발과 고객 맞춤형 솔루션을 통해 산업 전반에 걸친 디지털 혁신을 주도합니다.</p>
-      <div class="grid md:grid-cols-3 gap-8 text-left">
-        <div class="bg-gray-100 p-6 rounded-xl shadow">
-          <h3 class="text-xl font-bold mb-2">회사 정보</h3>
-          <ul class="list-disc pl-5 text-sm">
-            <li><strong>설립:</strong> 2018년 1월 1일</li>
-            <li><strong>대표자:</strong> 윤형영</li>
-            <li><strong>직원 수:</strong> 49명</li>
-            <li><strong>매출:</strong> 81억원 (2024년 기준)</li>
-            <li><strong>위치:</strong> 경기도 안양시 동안구 시민대로 383, 디지탈엠파이어 B동 1202호</li>
-          </ul>
+<!-- Hero Section -->
+<section class="hero-bg text-white min-h-screen flex items-center">
+  <div class="container mx-auto px-4 text-center">
+    <h1 class="text-5xl font-bold mb-4">AI 서비스</h1>
+    <p class="text-lg mb-6">FineAeye & FineWeave</p>
+    <p class="text-xl mb-8">고객 맞춤형 AI 솔루션으로 혁신을 경험하세요.</p>
+    <a href="#products" class="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-lg text-white">제품 살펴보기</a>
+  </div>
+</section>
+
+<!-- Products Section -->
+<section id="products" class="py-20 bg-white">
+  <div class="container mx-auto px-4 text-center">
+    <h2 class="text-3xl font-bold mb-12">제품 소개</h2>
+
+    <!-- FineAeye Section -->
+    <div class="mb-16">
+      <h3 class="text-2xl font-bold mb-6">FineAeye</h3>
+      <p class="text-lg mb-6">맞춤형 비전 검사 AI 솔루션으로 생산 품질을 혁신하세요.</p>
+      <div class="grid md:grid-cols-4 gap-8">
+        <div class="p-6 border rounded-xl shadow-lg">
+          <img src="https://img.icons8.com/color/96/price-tag.png" alt="라벨링 아이콘" class="w-16 mx-auto mb-4" />
+          <h3 class="font-bold text-lg mb-2">라벨링</h3>
+          <p>독립 산업 내 최적화된 정밀 라벨링 지원</p>
         </div>
-        <div class="bg-gray-100 p-6 rounded-xl shadow">
-          <h3 class="text-xl font-bold mb-2">주요 사업 분야</h3>
-          <ul class="list-disc pl-5 text-sm">
-            <li>AI Vision 검사 및 챗봇 개발</li>
-            <li>ICT 서비스 및 컨설팅</li>
-            <li>MES & SI (System Integration)</li>
-            <li>UAV 드론 설계 및 제조</li>
-          </ul>
+        <div class="p-6 border rounded-xl shadow-lg">
+          <img src="https://img.icons8.com/color/96/synchronize.png" alt="실시간 아이콘" class="w-16 mx-auto mb-4" />
+          <h3 class="font-bold text-lg mb-2">실시간</h3>
+          <p>스마트 팩토리 환경에서 빠르고 정확한 분석과 패턴 제공</p>
         </div>
-        <div class="bg-gray-100 p-6 rounded-xl shadow">
-          <h3 class="text-xl font-bold mb-2">핵심 경쟁력</h3>
-          <ul class="list-disc pl-5 text-sm">
-            <li>다수의 특허 기술 보유</li>
-            <li>산업용 드론 및 AI 알고리즘 전문성</li>
-            <li>민간 및 공공 ICT 프로젝트 수행 경험</li>
-            <li>국내외 클라우드 파트너십 확보</li>
-          </ul>
+        <div class="p-6 border rounded-xl shadow-lg">
+          <img src="https://img.icons8.com/fluency/72/artificial-intelligence.png" alt="판단 정확도 아이콘" class="w-16 mx-auto mb-4" />
+          <h3 class="font-bold text-lg mb-2">판단 정확도</h3>
+          <p>U-net 기반의 하이브리드 모델로 높은 정확도 제공</p>
+        </div>
+        <div class="p-6 border rounded-xl shadow-lg">
+          <img src="https://img.icons8.com/fluency/72/settings.png" alt="상용 솔루션 아이콘" class="w-16 mx-auto mb-4" />
+          <h3 class="font-bold text-lg mb-2">상용 솔루션</h3>
+          <p>다양한 산업군에서 즉시 적용 가능한 AI 솔루션 제공</p>
         </div>
       </div>
     </div>
-  </section>
+
+    <!-- FineWeave Section -->
+    <div id="fineweave">
+      <h3 class="text-2xl font-bold mb-6">FineWeave</h3>
+      <p class="text-lg mb-6">LLM 기반 챗봇 솔루션으로 24시간 고객 지원을 강화하세요.</p>
+      <div class="grid md:grid-cols-4 gap-8">
+        <div class="p-6 border rounded-xl shadow-lg">
+          <img src="https://img.icons8.com/fluency/72/speech-bubble.png" alt="지식 기반 아이콘" class="w-16 mx-auto mb-4" />
+          <h3 class="font-bold text-lg mb-2">지식 기반 대화형</h3>
+          <p>RAG 기반 AI 기술을 활용하여 정확하고 맥락 있는 답변을 제공합니다.</p>
+        </div>
+        <div class="p-6 border rounded-xl shadow-lg">
+          <img src="https://img.icons8.com/fluency/72/performance.png" alt="최적화 아이콘" class="w-16 mx-auto mb-4" />
+          <h3 class="font-bold text-lg mb-2">Low-Resource 최적화</h3>
+          <p>제한된 시스템 자원에서도 고성능을 발휘하는 경량화된 AI 모델 제공</p>
+        </div>
+        <div class="p-6 border rounded-xl shadow-lg">
+          <img src="https://img.icons8.com/color/96/multiple-smartphones.png" alt="멀티턴 아이콘" class="w-16 mx-auto mb-4" />
+          <h3 class="font-bold text-lg mb-2">멀티턴 지원</h3>
+          <p>사용자의 연속된 질문 흐름을 이해하고 자연스럽게 이어지는 대화 지원</p>
+        </div>
+        <div class="p-6 border rounded-xl shadow-lg">
+          <img src="https://img.icons8.com/color/96/server.png" alt="온프레미스 아이콘" class="w-16 mx-auto mb-4" />
+          <h3 class="font-bold text-lg mb-2">온프레미스 환경 대응</h3>
+          <p>내부 인프라에서도 안전하고 독립적으로 구동 가능한 구조 제공</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Why Choose Us Section -->
+<section class="py-20 bg-gray-100">
+  <div class="container mx-auto px-4 text-center">
+    <h2 class="text-3xl font-bold mb-12">왜 AI 서비스를 선택해야 하나요?</h2>
+    <div class="grid md:grid-cols-2 gap-8">
+      <div class="bg-white p-6 rounded-xl shadow-lg">
+        <img src="https://img.icons8.com/color/96/artificial-intelligence.png" alt="혁신 아이콘" class="w-12 h-12 mx-auto mb-4">
+        <h3 class="font-bold text-lg mb-4">✔️ 혁신적인 기술력</h3>
+        <p>최신 AI 기술을 활용하여 고객의 문제를 해결합니다.</p>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow-lg">
+        <img src="https://img.icons8.com/color/96/maintenance.png" alt="맞춤형 아이콘" class="w-12 h-12 mx-auto mb-4">
+        <h3 class="font-bold text-lg mb-4">✔️ 맞춤형 솔루션</h3>
+        <p>고객의 요구에 맞춰 최적화된 솔루션을 제공합니다.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Form -->
+<section id="contact" class="py-20 bg-white">
+  <div class="container mx-auto px-4 max-w-md">
+    <form action="#" method="#" class="bg-gray-50 p-8 rounded-xl shadow-md">
+      <h2 class="text-xl font-bold mb-6">문의하기</h2>
+      <input type="text" placeholder="이름" required class="w-full p-3 border rounded-lg mb-4 focus:ring focus:ring-blue-300 focus:outline-none" />
+      <input type="email" placeholder="이메일" required class="w-full p-3 border rounded-lg mb-4 focus:ring focus:ring-blue-300 focus:outline-none" />
+      <textarea placeholder="문의 내용" required rows="5" class="w-full p-3 border rounded-lg mb-4 focus:ring focus:ring-blue-300 focus:outline-none"></textarea>
+      <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg font-semibold">문의하기</button>
+    </form>
+  </div>
+</section>
+
+<!-- JS -->
+<script>
+  document.querySelector('form').addEventListener('submit', function (e) {
+    e.preventDefault();
+    alert('문의가 성공적으로 접수되었습니다!');
+  });
+</script>
 
 </body>
 </html>
